@@ -1,7 +1,11 @@
 package de.neuefische.mavenfirststeps.neueapp;
 
-public class TestClass {
+public class Operations {
     public static int add(int x, int y) {
         return x + y;
+    }
+
+    public static boolean isGreater(int x, int y) {
+        return x > y;
     }
 }
